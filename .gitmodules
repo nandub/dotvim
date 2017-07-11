@@ -1,0 +1,6 @@
+[submodule "autoload/pathogen.vim"]
+	path = autoload/pathogen.vim
+	url = https://github.com/tpope/vim-pathogen
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
