@@ -40,7 +40,8 @@ git submodule update
 ```
 ...the last two git commands can be rolled in to one: `git submodule update --init`
 
-## Upgrading a plugin bundleAt some point in the future, the fugitive plugin might be updated. To fetch the latest changes, go into the fugitive repository, and pull the latest version:
+## Upgrading a plugin bundle
+At some point in the future, the fugitive plugin might be updated. To fetch the latest changes, go into the fugitive repository, and pull the latest version:
 ```
 cd ~/.vim/bundle/fugitive
 git pull origin master
