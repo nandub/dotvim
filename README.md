@@ -1,11 +1,10 @@
 ## Installation:
 
-    git clone git://github.com/nandub/dotvim.git ~/.vim
+    git clone https://github.com/nandub/dotvim.git ~/.vim
 
 ## Create symlinks:
 
     ln -s ~/.vim/vimrc ~/.vimrc
-    ln -s ~/.vim/gvimrc ~/.gvimrc
 
 ## Switch to the `~/.vim` directory, and fetch submodules:
 
@@ -21,7 +20,7 @@ To install the fugitive plugin as a git submodule, take the following steps:
 ```
 cd ~/.vim
 mkdir ~/.vim/bundle
-git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
+git submodule add https://github.com/tpope/vim-fugitive.git bundle/fugitive
 git add .
 git commit -m "Install Fugitive.vim bundle as a submodule."
 ```
@@ -31,9 +30,8 @@ Once your vim configuration is under version control, it’s quite straightforwa
 
 ```
 cd ~
-git clone http://github.com/username/dotvim.git ~/.vim
+git clone https://github.com/username/dotvim.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
-ln -s ~/.vim/gvimrc ~/.gvimrc
 cd ~/.vim
 git submodule init
 git submodule update
