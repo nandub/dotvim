@@ -1,0 +1,1 @@
+../bundle/dracula-theme/colors/dracula.vim
