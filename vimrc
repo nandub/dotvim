@@ -20,7 +20,7 @@ set runtimepath^=~/.vim/bundle/vim-airline/plugin/airline.vim
 " noopkat settings
 "============================================================
 syntax on
-"color dracula
+color dracula
 set smartindent
 set clipboard=unnamed " use os clipboard
 set shiftwidth=2 " number of spaces when shift indenting
@@ -40,7 +40,7 @@ set noswapfile
 let g:jsx_ext_required = 0
 
 " airline
-"let g:airline_theme = 'wombat'
+let g:airline_theme = 'wombat'
 let g:airline#extensions#tabline#enabled = 0
 let g:airline#extensions#branch#enabled = 1
 let g:airline_left_sep = ' ❤  '

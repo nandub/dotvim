@@ -22,6 +22,6 @@
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline
-[submodule "/Users/nandub/.vim/bundle/vim-airline-theme"]
-	path = /Users/nandub/.vim/bundle/vim-airline-theme
+[submodule "bundle/vim-airline-themes"]
+	path = bundle/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
