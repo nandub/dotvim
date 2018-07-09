@@ -17,6 +17,12 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 set runtimepath^=~/.vim/bundle/vim-airline/plugin/airline.vim
 
 "============================================================
+" Start pathogen
+"============================================================
+execute pathogen#infect()
+call pathogen#helptags()
+
+"============================================================
 " noopkat settings
 "============================================================
 syntax on
@@ -96,11 +102,6 @@ vnoremap <C-k> :m '<-2<CR>gv=gv
 " switch to left / right split (mostly for Nerd Tree)
 map <C-h> <C-W>h
 map <C-l> <C-W>l
-"============================================================
-" Start pathogen
-"============================================================
-execute pathogen#infect()
-call pathogen#helptags()
 
 set noruler
 set noshowmode

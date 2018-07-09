@@ -25,3 +25,12 @@
 [submodule "bundle/vim-airline-themes"]
 	path = bundle/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "/Users/nandub/.vim/bundle/typescript-vim"]
+	path = /Users/nandub/.vim/bundle/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "/Users/nandub/.vim/bundle/vim-jsx-improve"]
+	path = /Users/nandub/.vim/bundle/vim-jsx-improve
+	url = https://github.com/neoclide/vim-jsx-improve.git
+[submodule "/Users/nandub/.vim/bundle/vim-multiple-cursors"]
+	path = /Users/nandub/.vim/bundle/vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors.git
